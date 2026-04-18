@@ -1,0 +1,4 @@
+interface:
+  display_name: "User Research Playbook"
+  short_description: "Design interviews that produce real product signals"
+  default_prompt: "Use $gingiris-growth-user-research to design user interviews, beta-user selection, and feedback synthesis that test the real value proposition, behavior, competitor usage, and paid or referral signals for this product."

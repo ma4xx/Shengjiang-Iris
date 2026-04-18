@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shengjiang Iris"
+  short_description: "Cold-start and global growth judgment for early software products"
+  default_prompt: "Use $shengjiang-iris-perspective to analyze this product like Shengjiang Iris: tighten the value proposition, choose the earliest users, pick the shortest-path channels, and define the first closed loop before scale."

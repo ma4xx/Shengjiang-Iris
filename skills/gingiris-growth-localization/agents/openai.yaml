@@ -1,0 +1,4 @@
+interface:
+  display_name: "Localization Playbook"
+  short_description: "Adapt product beyond translation"
+  default_prompt: "Use $gingiris-growth-localization to adapt this product for a target market, separating what is a messaging problem from what is a workflow, payment, trust, compliance, or channel problem."

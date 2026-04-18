@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gingiris Growth"
+  short_description: "Route growth tasks with Iris judgment first"
+  default_prompt: "Use $gingiris-growth to judge this software growth problem like Shengjiang Iris first, then route it to the single right playbook and explain why this step comes before the others."

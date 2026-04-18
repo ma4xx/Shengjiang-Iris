@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO GEO Playbook"
+  short_description: "Turn value props into search and AI entry points"
+  default_prompt: "Use $gingiris-growth-seo-geo to build an SEO and GEO plan that supports the product's real value proposition, creates durable content assets, and includes internal links, AI-citable structures, and conversion paths."

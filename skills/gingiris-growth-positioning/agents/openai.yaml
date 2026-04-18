@@ -1,0 +1,4 @@
+interface:
+  display_name: "Positioning Playbook"
+  short_description: "Make the value prop globally understandable"
+  default_prompt: "Use $gingiris-growth-positioning to turn this product into a globally understandable one-liner, homepage message, and competitor-framed positioning that Shengjiang Iris would actually approve."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Start Playbook"
+  short_description: "Plan first users, closed loop, then traction"
+  default_prompt: "Use $gingiris-growth-cold-start to tighten the value proposition, choose the first 10 high-quality users, and build a 7-day cold-start plan around the smallest paid or referral loop."

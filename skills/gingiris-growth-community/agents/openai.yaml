@@ -1,0 +1,4 @@
+interface:
+  display_name: "Community Playbook"
+  short_description: "Build community loops that help trust and conversion"
+  default_prompt: "Use $gingiris-growth-community to design a community, ambassador, or partner loop that actually helps this product get better feedback, stronger trust, and compounding referrals instead of fake activity."

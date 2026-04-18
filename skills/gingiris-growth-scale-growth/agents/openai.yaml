@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scale Growth Playbook"
+  short_description: "Scale only after the loop is proven"
+  default_prompt: "Use $gingiris-growth-scale-growth to decide whether this product is actually ready to scale, then plan post-PMF channels, campaigns, budgets, and funnel experiments around the already-validated loop."
