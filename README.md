@@ -1,6 +1,15 @@
 # Shengjiang Iris Skills
 
-一套面向 **软件出海 / AI 产品冷启动 / 开源增长** 的 Codex skills。
+一套面向 **软件出海 / AI 产品冷启动 / 开源增长** 的通用 agent skills。
+
+只要你的 agent 支持 skills 目录加载或等价的 skill 机制，这套仓库就可以使用。
+
+明确适用：
+
+- Claude Code
+- OpenClaw
+- Codex
+- 其他支持 skills 的 agent 框架
 
 这套仓库包含两层能力：
 
@@ -147,16 +156,24 @@ skills/
 
 ## 安装方法
 
-### 方式一：手动复制到 Codex
+### 方式一：手动复制到你的 agent skills 目录
 
-把本仓库里的 `skills/` 目录复制到你的 Codex skills 目录下。
+把本仓库里的 `skills/` 目录复制到你的 agent skills 目录下。
 
-常见目录：
+常见目录示例：
 
 ```bash
 mkdir -p ~/.codex/skills
 cp -R skills/* ~/.codex/skills/
 ```
+
+如果你用的是其他支持 skills 的 agent，只需要把 `skills/*` 复制到该 agent 对应的 skills 目录即可。
+
+例如：
+
+- Claude Code：放到你的 Claude Code skills 目录
+- OpenClaw：放到 OpenClaw 读取 skills 的目录
+- 其他 agent：放到该 agent 约定的 skills 路径
 
 复制完成后，新的 skill 目录大致会长这样：
 
@@ -181,6 +198,10 @@ cp -R skills/* ~/.codex/skills/
 ---
 
 ## 怎么使用
+
+下面的调用示例使用 `$skill-name` 的写法。
+
+如果你的 agent 不使用这个触发格式，也可以直接用自然语言指定 skill 名称或按该 agent 的 skill 调用方式来用。
 
 ## 用法 1：先借“生姜 Iris 的脑子”判断
 
